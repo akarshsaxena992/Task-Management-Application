@@ -43,7 +43,7 @@ function Home() {
                     </tr>
                 </thead>
                 <tbody>
-                    {data.map((task, index)=>{
+                    {data?.map((task, index)=>{
                         return <tr key={index}>
                             <td>{task.SerialNo}</td>
                             <td>{task.Title}</td>
