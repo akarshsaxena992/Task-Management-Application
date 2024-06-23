@@ -48,7 +48,7 @@
     password: "",
     database: 'crud'
 
-                                 OR
+    OR
     
     Go to https://www.phpmyadmin.co/ and login with below credentials
     Host: sql12.freesqldatabase.com
