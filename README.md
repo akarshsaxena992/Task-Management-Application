@@ -3,6 +3,9 @@
 ## Features
 
 - View a list of tasks with details
+
+  ![Screenshot (7)](https://github.com/akarshsaxena992/Task-Management-Application/assets/100353101/73a3ba04-09bb-4e40-9f00-e21578fb247a)
+  
 - Create new tasks
 - Edit existing tasks
 - Delete tasks
