@@ -1,6 +1,9 @@
 import express from 'express'
 import mysql from 'mysql'
 import cors from 'cors'
+import dotenv from 'dotenv'
+
+dotenv.config();
 
 const app =  express();
 app.use(cors());
@@ -10,11 +13,11 @@ app.use(express.json());
 //Go to https://www.phpmyadmin.co/ and login with below credentials 
 //You will be connected to Database
 const db = mysql.createConnection({
-    host: "sql12.freesqldatabase.com",
-    user: "sql12715591",
-    password: "EV6Hc83RNz",
-    database: 'sql12715591'
-})
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE
+});
 
 // If there is any error in above connection Please follow below 
 // 1. Download Xampp control Panel 
