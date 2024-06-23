@@ -1,0 +1,185 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Home container */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Box styling */
+.box {
+  width: 90%;
+  max-width: 1320px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Header styles */
+.box h2 {
+  text-align: center;
+  color: #343a40;
+}
+
+/* Table styling */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table thead th {
+  background-color: #343a40;
+  color: #ffffff;
+  text-align: left;
+  padding: 12px;
+}
+
+.table tbody td {
+  padding: 12px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+/* Button styling */
+.btn {
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn_middle{
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-success:hover,
+.btn-info:hover,
+.btn-primary:hover,
+.btn-danger:hover {
+  opacity: 0.8;
+}
+
+/* Link button styling */
+a.btn {
+  color: #fff;
+  text-decoration: none;
+}
+
+a.btn:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Flex container for the Create button */
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+/* Media queries for responsiveness */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (max-width: 768px) {
+  .box {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .btn_middle{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .table thead {
+    display: none;
+  }
+
+  .table, .table tbody, .table tr, .table td {
+    display: block;
+    width: 100%;
+  }
+
+  .table tr {
+    margin-bottom: 15px;
+  }
+
+  .table td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+  }
+
+  .table td:before {
+    content: attr(data-label);
+    position: absolute;
+    left: 10px;
+    width: calc(50% - 20px);
+    padding-right: 10px;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .btn {
+    width: 100%;
+    margin-top: 5px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 992px) {
+  .box {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .table tbody td {
+    padding: 10px;
+  }
+  .btn {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .btn_middle{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
