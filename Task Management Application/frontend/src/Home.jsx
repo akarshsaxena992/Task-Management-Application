@@ -21,7 +21,7 @@ function Home() {
     }, []);
 
     const handleDelete = (serialno) => {
-        axios.delete(https://task-management-application-lzr9.onrender.com/delete/${serialno})
+        axios.delete(`https://task-management-application-lzr9.onrender.com/delete/${serialno}`)
             .then(res => {
                 window.location.reload();
             })
