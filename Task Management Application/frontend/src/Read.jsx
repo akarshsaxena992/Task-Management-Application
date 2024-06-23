@@ -7,7 +7,7 @@ function Read() {
     const [task, setTask] = useState([])
 
     useEffect(()=>{
-        axios.get('http://localhost:8081/read/'+serialno)
+        axios.get(`${process.env.API_BASE_ENDPOINT}/read/`+serialno)
         .then(res => {
             console.log(res);
             setTask(res.data[0]);
