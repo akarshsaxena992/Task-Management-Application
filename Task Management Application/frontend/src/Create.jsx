@@ -11,7 +11,7 @@ function Create() {
     const navigate = useNavigate();
     const handleSubmit = (e) =>{
         e.preventDefault();
-        axios.post('http://localhost:8081/task', values)
+        axios.post(`${process.env.API_BASE_ENDPOINT}/task`, values)
         .then(res => {
             console.log(res);
             navigate('/')
