@@ -16,6 +16,9 @@
   
 - Delete tasks
 - Read tasks
+
+  ![Screenshot (17)](https://github.com/akarshsaxena992/Task-Management-Application/assets/100353101/3a374221-b4f5-4263-8c84-d1ca6f087f3e)
+
 - Responsive design
 
   ![Screenshot (15)](https://github.com/akarshsaxena992/Task-Management-Application/assets/100353101/bf579e4a-3731-4805-9236-1af6f043a9c7)
