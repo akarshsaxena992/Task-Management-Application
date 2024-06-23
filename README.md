@@ -42,17 +42,25 @@
 2.  Navigate to the project directory.
 3.  Run the following commends and start both the backend and frontend server
 
-    For Front End
-- cd frontend
-- npm init or npm i
-- npm start
-
-    For Back End
-- cd server
-- npm init or npm i
-- npm start
+    For Front End,
+    ```bash
+    cd frontend
+    npm init
+    or
+    npm i
+    npm start
+    ```
     
-5.  Download the XAMPP control panel for Mysql.
+    For Back End,
+    ```bash
+    cd server
+    npm init
+    or
+    npm i
+    npm start
+    ```
+    
+4.  Download the XAMPP control panel for Mysql.
     Create a database named 'crud' and create a table inside that database named 'task'.
     Change the Credentials in server.js file
     host: "localhost",
@@ -68,10 +76,10 @@
     Database user: sql12715591
     Database password: EV6Hc83RNz
     
-6.  Create a database named 'crud' and create a table inside that database named 'task'.
-7.  The database should contain 4 columns:
+5.  Create a database named 'crud' and create a table inside that database named 'task'.
+6.  The database should contain 4 columns:
     SerialNo (Auto Increment, Int)
     Title (varchar)
     Description (varchar)
     DueDate(date)
-8. Start the development server And Utilize this Task Management System.
+7. Start the development server And Utilize this Task Management System.
