@@ -68,9 +68,9 @@ function Home() {
                                 <td>{task.Description}</td>
                                 <td>{task.DueDate.substring(0, 10)}</td>
                                 <td>
-                                    <Link to={/read/${task.SerialNo}} className='btn btn-sm btn-info'>Read</Link>
-                                    <Link to={/edit/${task.SerialNo}} className='btn btn-sm btn-primary btn_middle'>Edit</Link>
-                                    <button onClick={() => handleDeleteWithWarning(task.SerialNo)} className='btn btn-sm btn-danger'>Delete</button>
+                                <Link to={`/read/${task.SerialNo}`} className='btn btn-sm btn-info'>Read</Link>
+                                <Link to={`/edit/${task.SerialNo}`} className='btn btn-sm btn-primary btn_middle'>Edit</Link>
+                                <button onClick={ ()=> handleDeleteWithWarning(task.SerialNo)} className='btn btn-sm btn-danger'>Delete</button>
                                 </td>
                             </tr>
                         ))}
