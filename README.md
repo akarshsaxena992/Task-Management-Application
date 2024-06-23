@@ -61,13 +61,13 @@
     ```
     
 4.  Download the XAMPP control panel for Mysql.
-    Create a database named 'crud' and create a table inside that database named 'task'.
-    The database should contain 4 columns:
+- Create a database named 'crud' and create a table inside that database named 'task'.
+- The database should contain 4 columns:
     SerialNo (Auto Increment, Int)
     Title (varchar)
     Description (varchar)
     DueDate(date)
-    Change the Credentials in server.js file. 
+- Change the Credentials in server.js file. 
     host: "localhost",
     user: "root",
     password: "",
