@@ -40,7 +40,19 @@
     git clone https://github.com/akarshsaxena992/Task-Management-Application.git
     ```
 2.  Navigate to the project directory.
-3.  Download the XAMPP control panel for Mysql.
+3.  Run the following commends and start both the backend and frontend server
+
+    For Front End
+- cd frontend
+- npm init or npm i
+- npm start
+
+    For Back End
+- cd server
+- npm init or npm i
+- npm start
+    
+5.  Download the XAMPP control panel for Mysql.
     Create a database named 'crud' and create a table inside that database named 'task'.
     Change the Credentials in server.js file
     host: "localhost",
@@ -56,10 +68,10 @@
     Database user: sql12715591
     Database password: EV6Hc83RNz
     
-4.  Create a database named 'crud' and create a table inside that database named 'task'.
-5.  The database should contain 4 columns:
+6.  Create a database named 'crud' and create a table inside that database named 'task'.
+7.  The database should contain 4 columns:
     SerialNo (Auto Increment, Int)
     Title (varchar)
     Description (varchar)
     DueDate(date)
-6. Start the development server And Utilize this Task Management System.
+8. Start the development server And Utilize this Task Management System.
