@@ -20,5 +20,8 @@
 
 ##  How to setup this project on local system ?
 1. Clone github repository:
-
-2. 
+   ```bash
+    git clone https://github.com/akarshsaxena992/Task-Management-Application.git
+    ```
+   
+3. 
