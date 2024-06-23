@@ -7,7 +7,7 @@ function Update() {
     const navigate = useNavigate()
 
     useEffect(()=>{
-        axios.get('http://localhost:8081/read/'+serialno)
+        axios.get(`${process.env.API_BASE_ENDPOINT}/read/`+serialno)
         .then(res => {
             console.log(res);
             setValues({...values, title: res.data[0].Title, description: res.data[0].Description, date: res.data[0].DueDate});
@@ -23,7 +23,7 @@ function Update() {
 
     const handleUpdate = (event) => {
         event.preventDefault();
-        axios.put('http://localhost:8081/update/'+serialno,values)
+        axios.put(`${process.env.API_BASE_ENDPOINT}/update/`+serialno,values)
         .then(res => {
             console.log(res)
             navigate('/')
