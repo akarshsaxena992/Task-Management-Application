@@ -11,9 +11,16 @@
   ![Screenshot (12)](https://github.com/akarshsaxena992/Task-Management-Application/assets/100353101/4b280f97-2fbb-4639-9e55-4acfe0523d4e)
   
 - Edit existing tasks
+
+  ![Screenshot (13)](https://github.com/akarshsaxena992/Task-Management-Application/assets/100353101/0773b531-62dd-4962-a39d-56aa5a7f2724)
+  
 - Delete tasks
 - Read tasks
 - Responsive design
+
+  ![Screenshot (15)](https://github.com/akarshsaxena992/Task-Management-Application/assets/100353101/bf579e4a-3731-4805-9236-1af6f043a9c7)
+
+  ![Screenshot (16)](https://github.com/akarshsaxena992/Task-Management-Application/assets/100353101/57f937f0-3b3f-444c-9080-1f850fdb916a)
 
 ## Technologies Used
 
