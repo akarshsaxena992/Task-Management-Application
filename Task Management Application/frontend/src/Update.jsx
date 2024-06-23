@@ -7,7 +7,7 @@ function Update() {
     const navigate = useNavigate()
 
     useEffect(()=>{
-        axios.get(`${process.env.API_BASE_ENDPOINT}/read/`+serialno)
+        axios.get(`https://task-management-application-lzr9.onrender.com/read/`+serialno)
         .then(res => {
             console.log(res);
             setValues({...values, title: res.data[0].Title, description: res.data[0].Description, date: res.data[0].DueDate});
@@ -23,7 +23,7 @@ function Update() {
 
     const handleUpdate = (event) => {
         event.preventDefault();
-        axios.put(`${process.env.API_BASE_ENDPOINT}/update/`+serialno,values)
+        axios.put(`https://task-management-application-lzr9.onrender.com/update/`+serialno,values)
         .then(res => {
             console.log(res)
             navigate('/')
