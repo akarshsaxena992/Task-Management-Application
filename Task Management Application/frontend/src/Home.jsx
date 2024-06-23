@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom'
 function Home() {
     const [data,setData] = useState([])
     useEffect(()=>{
-        axios.get(`${process.env.API_BASE_ENDPOINT}/`)
+        axios.get(`https://task-management-application-lzr9.onrender.com/`)
         .then(res => setData(res.data))
         .catch(err => console.log(err));
     },[])
 
     const handleDelete = (serialno) => {
-        axios.delete(`${process.env.API_BASE_ENDPOINT}/delete/`+serialno)
+        axios.delete(`https://task-management-application-lzr9.onrender.com/delete/`+serialno)
         .then(res => {
             window.location.reload();
         })
