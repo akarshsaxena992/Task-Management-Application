@@ -7,7 +7,7 @@ function Read() {
     const [task, setTask] = useState([])
 
     useEffect(()=>{
-        axios.get(`${process.env.API_BASE_ENDPOINT}/read/`+serialno)
+        axios.get(`https://task-management-application-lzr9.onrender.com/read/`+serialno)
         .then(res => {
             console.log(res);
             setTask(res.data[0]);
