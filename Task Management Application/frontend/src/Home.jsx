@@ -8,7 +8,7 @@ function Home() {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        axios.get('https://task-management-application-lzr9.onrender.com/')
+        axios.get(`https://task-management-application-lzr9.onrender.com/`)
             .then(res => {
                 setData(res.data);
                 setLoading(false);
