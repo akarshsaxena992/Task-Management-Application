@@ -11,7 +11,7 @@ function Create() {
     const navigate = useNavigate();
     const handleSubmit = (e) =>{
         e.preventDefault();
-        axios.post(`${process.env.API_BASE_ENDPOINT}/task`, values)
+        axios.post(`https://task-management-application-lzr9.onrender.com/task`, values)
         .then(res => {
             console.log(res);
             navigate('/')
