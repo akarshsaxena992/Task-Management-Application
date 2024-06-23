@@ -7,6 +7,9 @@
   ![Screenshot (7)](https://github.com/akarshsaxena992/Task-Management-Application/assets/100353101/73a3ba04-09bb-4e40-9f00-e21578fb247a)
   
 - Create new tasks
+
+  ![Screenshot (12)](https://github.com/akarshsaxena992/Task-Management-Application/assets/100353101/4b280f97-2fbb-4639-9e55-4acfe0523d4e)
+  
 - Edit existing tasks
 - Delete tasks
 - Read tasks
