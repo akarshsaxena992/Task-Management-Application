@@ -40,7 +40,22 @@
     git clone https://github.com/akarshsaxena992/Task-Management-Application.git
     ```
 2.  Navigate to the project directory.
-3.  Download XAMPP control panel for Mysql.
+3.  Download the XAMPP control panel for Mysql.
+    Create a database named 'crud' and create a table inside that database named 'task'.
+    Change the Credentials in server.js file
+    host: "localhost",
+    user: "root",
+    password: "",
+    database: 'crud'
+
+                                 OR
+    
+    Go to https://www.phpmyadmin.co/ and login with below credentials
+    Host: sql12.freesqldatabase.com
+    Database name: sql12715591
+    Database user: sql12715591
+    Database password: EV6Hc83RNz
+    
 4.  Create a database named 'crud' and create a table inside that database named 'task'.
 5.  The database should contain 4 columns:
     SerialNo (Auto Increment, Int)
