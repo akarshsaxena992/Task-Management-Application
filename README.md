@@ -62,7 +62,7 @@
     
 4.  Download the XAMPP control panel for Mysql.
     Create a database named 'crud' and create a table inside that database named 'task'.
-    Change the Credentials in server.js file
+    Change the Credentials in server.js file. 
     host: "localhost",
     user: "root",
     password: "",
@@ -70,10 +70,10 @@
 
     OR
     
-    Go to https://www.phpmyadmin.co/ and login with below credentials
-    Host: sql12.freesqldatabase.com
-    Database name: sql12715591
-    Database user: sql12715591
+    Go to https://www.phpmyadmin.co/ and log in with the following credentials.
+    Host: sql12.freesqldatabase.com,
+    Database name: sql12715591,
+    Database user: sql12715591,
     Database password: EV6Hc83RNz
     
 5.  Create a database named 'crud' and create a table inside that database named 'task'.
