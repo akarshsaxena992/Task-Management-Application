@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom'
 function Home() {
     const [data,setData] = useState([])
     useEffect(()=>{
-        axios.get('http://localhost:8081/')
+        axios.get(`${process.env.API_BASE_ENDPOINT}/`)
         .then(res => setData(res.data))
         .catch(err => console.log(err));
     },[])
 
     const handleDelete = (serialno) => {
-        axios.delete('http://localhost:8081/delete/'+serialno)
+        axios.delete(`${process.env.API_BASE_ENDPOINT}/delete/`+serialno)
         .then(res => {
             window.location.reload();
         })
