@@ -38,7 +38,10 @@ const db = mysql.createConnection({
 app.get('/', (req,res) => {
     const sql = "SELECT * FROM task";
     db.query(sql, (err,result)=>{
-        if(err) return res.json({Message: "Error inside server"});
+        if(err) {
+            console.log(err);
+            return res.json({Message: "Error inside server"});
+        }
         return res.json(result);
     })
 })
